@@ -1,1 +1,1 @@
-# Medalists-in-Wrestling-World-Championships
+# Medalists-of-Wrestling-World-Championships
