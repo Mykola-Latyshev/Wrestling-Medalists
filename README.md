@@ -3,7 +3,7 @@
 Table of Contents 
 1. Introduction
 2. Aim
-3. 1. Technology
+3. Technology
 3. Data
 4. Preprocessing
 5. Early EDA
