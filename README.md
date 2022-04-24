@@ -1,5 +1,5 @@
 
-# Medalists-of-Wrestling-World-Championships
+# Wrestling Medalists
 
 ### Table of Contents 
 1. Introduction
