@@ -1,6 +1,6 @@
 # Medalists-of-Wrestling-World-Championships
 
-### Table of Contents 
+#### Table of Contents 
 1. Introduction
 2. Aim
 3. Technology
@@ -11,11 +11,11 @@
 7. Modelling
 8. Future Development
 
-### Introduction
+#### Introduction
 
 Analysis and prediction of athletes’ results are important tasks of sports science (sports psychology). In the short term, the solution of this problem allows  to determine the selection of more promising athletes and, in the long term, to optimise the athletes training.
 
-# Aim
+### Aim
 
 The project aims to predict wrestling medalists in world championships and to determine the features which are the most crucial ones for the prediction process. 
 
