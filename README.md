@@ -40,5 +40,9 @@ The DataFrame was created for the final analysis and modelling during preprocess
 A set of 16 features was compiled: age, relative age effect (RAE, including month/quarter/half year of birth), achievements in U18 competitions (participation/medalist/winner), achievements in U21 competitions (participation/medalist/winner) and achievements in continental and world championships until the moment of participation in the analysed competitions.
 The final DataFrame looks like this:
 ![02_dataframe_example](https://user-images.githubusercontent.com/82052288/161391213-dd9dda0e-3f19-4d1e-abc5-16b4c6baab2c.jpg)
+### Early EDA
+At the first stage of the EDA, I identified outliers/errors/inaccuracies made at the stage of data preprocessing. They were removed (less than 1% of the sample).
+### Final EDA
+At the next stage of the analysis, I studied the relationship between the target and features. Histograms of targets were compiled; the first graph shows the dependence of the number of athletes on the place taken. It is worth noting that according to the new wrestling rules, there is no 4th place.
 
 Percentage of medalists, %: 13.359528487229863
