@@ -28,7 +28,7 @@ Matplotlib
 Seaborn
 Scikit-Learn
 
-#### Data 
+### Data 
 The data contain information about the sports careers of the freestyle and Greco-Roman male wrestlers who participated in the World Championships 2017, 2018. Before preprocessing, the information included such components: full name, date of birth, and international level results (name of competition, date, and rank).
 The data of the results have been taken from the official site of the “United World Wrestling” (unitedworldwrestling.org).
 
