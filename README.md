@@ -44,7 +44,7 @@ The final DataFrame looks like this:
 ### Early EDA
 At the first stage of the EDA, I identified outliers/errors/inaccuracies made at the stage of data preprocessing. They were removed (less than 1% of the sample).
 ### Final EDA
-At the next stage of the analysis, I studied the relationship between the target and features. Histograms of targets were compiled; the first graph shows the dependence of the number of athletes on the place taken. It is worth noting that according to the new wrestling rules, there is no 4th place.
+At the next stage of the analysis, I studied the relationship between the target and features. Histograms of targets were compiled; the first graph shows the dependence of the number of athletes on the place taken. It is worth noting that according to the new wrestling rules, there is no 4th place (Percentage of medalists, %: 13.4).
 
 ![01_rank](https://user-images.githubusercontent.com/82052288/164989636-77d7dac1-aaa0-4842-9eb0-28c62ab1937c.png)
 
@@ -109,4 +109,4 @@ Secondly, preprocessing of features: omission/addition of new features or correc
 Finally, optimization of the model by means of the construction of several models aimed at identifying different classes.
 
 
-Percentage of medalists, %: 13.359528487229863
+
