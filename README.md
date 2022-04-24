@@ -45,7 +45,27 @@ The final DataFrame looks like this:
 At the first stage of the EDA, I identified outliers/errors/inaccuracies made at the stage of data preprocessing. They were removed (less than 1% of the sample).
 ### Final EDA
 At the next stage of the analysis, I studied the relationship between the target and features. Histograms of targets were compiled; the first graph shows the dependence of the number of athletes on the place taken. It is worth noting that according to the new wrestling rules, there is no 4th place.
+
 ![01_rank](https://user-images.githubusercontent.com/82052288/164989636-77d7dac1-aaa0-4842-9eb0-28c62ab1937c.png)
+
+There are two types of targets used in the work. The first type includes the categories of medalists (from the 1st to the 3rd places) and non-medalists (everyone else). The second type contains the categories of medalists (from the 1st to the 3rd places), middle ranks (from the 5th to the 10th ranks) and outsiders (everyone else). The main goal of the analysis is to show the differences between these categories in terms of the prediction features and to identify medal winners (highlighting the most important features for further predicting).
+
+The age distribution of participants is presented by a histogram and a box plot. It can be seen that the age range for medalists is smaller, the mode corresponds to the age of 24 years (for non-medalists - 26 years), however, the medians for both categories are equal. 
+
+![02_hist_box_age](https://user-images.githubusercontent.com/82052288/164992857-8629e8b4-2e3f-4390-ba3d-2762b416fbaf.png)
+
+Relative age is an indicator that allows you to identify talents and predict the results. The diagram shows the number of athletes depending on the month of birth.
+
+![03_dist_month_med](https://user-images.githubusercontent.com/82052288/164992861-8bbb1b18-2348-4bdd-83ec-eb331aff1ae7.png)
+
+I built correlation matrices and visualised one of them as a heat map. The most significant correlations were found between win/success at the world/continental championships before the analysed competition and the predictor (max r = 0.3). However, it is not worth asserting a linear relationship between these indicators.
+
+![04_matrix_corr_senior_m](https://user-images.githubusercontent.com/82052288/164992880-2327696d-2b34-453b-970b-7f4d911bdfb6.png)
+
+A histogram of the number of athletes was constructed depending on the number of times that cadets participated in competitions for each category. Indicators of two and three participation times are higher for medalists than for non-medalists, as can be seen from the diagram.
+
+![05_dist_count_cadet_part_m](https://user-images.githubusercontent.com/82052288/164992894-4730a32c-b961-4ae1-90a6-6aa03043dc54.png)
+
 
 
 
