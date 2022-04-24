@@ -89,5 +89,24 @@ The results of building models are presented in the table. The model with the hi
 
 ![03_wr_results](https://user-images.githubusercontent.com/82052288/164993882-1f9fbb99-2cdb-4900-bee4-2c5154ba0101.jpg)
 
+The most important prediction is the accuracy of medalist identification (precision). I created the confusion matrix for the best model (LightGBM). The precision of medalists (LightGBM) is about 0.68.
+
+![04_con_matrix_lgbm](https://user-images.githubusercontent.com/82052288/164993920-eb76c1b3-842b-4604-8ddb-b30e5539dba5.jpg)
+
+Further, I identified the most important features that made the greatest contribution to the model prediction (LightGBM).
+
+![11_importance_percentage_m](https://user-images.githubusercontent.com/82052288/164993938-ec8e12de-c238-48e7-9caa-e8e46c025798.png)
+
+### Conclusion
+
+I have created the basic model for the prediction of medalists of the Wrestling World Championships. The prediction accuracy was about 0.71 (with 0.33 being the result of random guessing). The precision for the medalists category was about 0.68 (where only about 13.4 % of the medalists out of all participants). 
+
+### Future Development
+
+To raise the prediction precision, further development is possible in the following directions.
+Firstly, classes rebalancing: imbalanced classes may be balanced or better selection of the threshold may be implemented.
+Secondly, preprocessing of features: omission/addition of new features or correction of the range of the existing ones.
+Finally, optimization of the model by means of the construction of several models aimed at identifying different classes.
+
 
 Percentage of medalists, %: 13.359528487229863
