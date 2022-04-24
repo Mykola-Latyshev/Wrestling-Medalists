@@ -64,9 +64,30 @@ I built correlation matrices and visualised one of them as a heat map. The most 
 
 A histogram of the number of athletes was constructed depending on the number of times that cadets participated in competitions for each category. Indicators of two and three participation times are higher for medalists than for non-medalists, as can be seen from the diagram.
 
-![05_dist_count_cadet_part_m](https://user-images.githubusercontent.com/82052288/164992894-4730a32c-b961-4ae1-90a6-6aa03043dc54.png)
+![05_dist_count_cadet_part_m](https://user-images.githubusercontent.com/82052288/164993821-45e7b02e-93c4-40f5-a9a9-47f27dd38022.png)
 
+The following chart shows the percentage distribution of medalists/middle-rank wrestlers/outsiders by successes in junior level competitions. One can see a certain trend when analysing the number of successful performances equal to 0, 1 and 2: the percentage of medalists/middle-rank wrestlers has increased, while that of outsiders has decreased. For the remaining data, it is difficult to identify definite trends.
 
+![06_dist_count_cadet_part_m](https://user-images.githubusercontent.com/82052288/164993836-be89a059-45ba-4d95-b414-50d0cad25448.png)
+
+The next chart shows the distribution of medalists/non-medalists successes at the World Championships. It can be seen from the graph that medalists were winning medals much more often before the analysed competition. 
+
+![07_world_count_succ_m](https://user-images.githubusercontent.com/82052288/164993847-c076ae69-f827-4940-884a-2fd2fec1254e.png)
+
+The last chart shows the distribution of medalists/non-medalists successes at the Continental Championships.
+
+![08_continental_champion_m](https://user-images.githubusercontent.com/82052288/164993854-a854be4b-2976-425d-9303-1d8282e21253.png)
+
+EDA Summary 
+The analysis showed a certain interconnection between the target and features. I have identified a clear relationship between them according to several features, but it is worth noting that some of the features are not crucial. This also provides an opportunity for optimising/correcting features for subsequent modelling.
+In general, we can state the relationship between the target and features, which allows us to build a model for predicting medalists at the World Wrestling Championship.
+
+### Modelling
+
+I have chosen five algorithms (GaussianNB, SVM, Random Forest, XGBoost, and LightGBM) to build the model. In order to test the obtained models, the data were divided into two samples: the train set (65%) and the test set (35%). Also, I used cross validation (cv=5) and GridSearchCV to tune hyperparameters.
+The results of building models are presented in the table. The model with the highest test accuracy was obtained using LightGBM. 
+
+![03_wr_results](https://user-images.githubusercontent.com/82052288/164993882-1f9fbb99-2cdb-4900-bee4-2c5154ba0101.jpg)
 
 
 Percentage of medalists, %: 13.359528487229863
