@@ -1,6 +1,6 @@
 # Medalists-of-Wrestling-World-Championships
 
-Table of Contents 
+# Table of Contents 
 1. Introduction
 2. Aim
 3. Technology
@@ -11,15 +11,15 @@ Table of Contents
 7. Modelling
 8. Future Development
 
-Introduction
+# Introduction
 
 Analysis and prediction of athletes’ results are important tasks of sports science (sports psychology). In the short term, the solution of this problem allows  to determine the selection of more promising athletes and, in the long term, to optimise the athletes training.
 
-Aim
+# Aim
 
 The project aims to predict wrestling medalists in world championships and to determine the features which are the most crucial ones for the prediction process. 
 
-Technology used
+# Technology used
 
 Python
 Pandas
@@ -28,7 +28,7 @@ Matplotlib
 Seaborn
 Scikit-Learn
 
-Data 
+# Data 
 The data contain information about the sports careers of the freestyle and Greco-Roman male wrestlers who participated in the World Championships 2017, 2018. Before preprocessing, the information included such components: full name, date of birth, and international level results (name of competition, date, and rank).
 The data of the results have been taken from the official site of the “United World Wrestling” (unitedworldwrestling.org).
 
