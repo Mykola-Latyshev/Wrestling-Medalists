@@ -35,7 +35,10 @@ The data of the results have been taken from the official site of the “United 
 The data were collected in the following format:
 ![01_raw_data_example](https://user-images.githubusercontent.com/82052288/161391241-e0ca2907-9a5f-4477-9748-48240d6c381c.jpg)
 
-
+### Preprocessing
+The DataFrame was created for the final analysis and modelling during preprocessing. Each row of the DataFrame contains the achievements of a particular athlete for the entire career period prior to participating in the World Championship.
+A set of 16 features was compiled: age, relative age effect (RAE, including month/quarter/half year of birth), achievements in U18 competitions (participation/medalist/winner), achievements in U21 competitions (participation/medalist/winner) and achievements in continental and world championships until the moment of participation in the analysed competitions.
+The final DataFrame looks like this:
 ![02_dataframe_example](https://user-images.githubusercontent.com/82052288/161391213-dd9dda0e-3f19-4d1e-abc5-16b4c6baab2c.jpg)
 
 Percentage of medalists, %: 13.359528487229863
